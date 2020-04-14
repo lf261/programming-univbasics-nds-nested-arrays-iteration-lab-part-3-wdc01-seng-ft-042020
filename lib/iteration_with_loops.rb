@@ -22,5 +22,5 @@ def join_nested_strings(src)
      
   end 
   
-  ns 
+  ns.join("") 
 end
