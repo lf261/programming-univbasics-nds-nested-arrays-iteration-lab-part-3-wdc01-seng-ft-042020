@@ -5,8 +5,15 @@ def join_nested_strings(src)
   ns = []
   row_index = 0 
   
-  while row_index < src[row_index].count do 
+  while row_index < src.count do 
     ele_index = 0 
     
+    while ele_index < src[row_index].count do 
+      if ele_index
+    
+    end 
+     
+     
+     
   end 
 end
