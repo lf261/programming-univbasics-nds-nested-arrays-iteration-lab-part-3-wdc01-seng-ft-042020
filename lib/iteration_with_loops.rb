@@ -16,7 +16,7 @@ def join_nested_strings(src)
       ele_index += 1
     end 
      
-     
+     ns <<
      
   end 
 end
