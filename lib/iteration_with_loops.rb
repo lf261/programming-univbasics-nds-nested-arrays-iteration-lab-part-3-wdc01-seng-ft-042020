@@ -10,7 +10,7 @@ def join_nested_strings(src)
     
     while ele_index < src[row_index].count do 
       if ele_index[row_index][ele_index].is_a? String 
-      
+      ns << ele_index
     
     end 
      
