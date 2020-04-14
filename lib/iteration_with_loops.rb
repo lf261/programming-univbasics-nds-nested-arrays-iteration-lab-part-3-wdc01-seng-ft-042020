@@ -16,7 +16,7 @@ def join_nested_strings(src)
               
               ele_index += 1
         
-     
+             end
      
      row_index += 1
      
@@ -25,4 +25,4 @@ def join_nested_strings(src)
   new_string
 end
 
-end 
+ 
