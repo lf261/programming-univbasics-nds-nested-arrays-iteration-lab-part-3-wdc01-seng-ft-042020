@@ -18,6 +18,9 @@ def join_nested_strings(src)
     end 
      
      ns << new_string
+     row_index += 1
      
   end 
+  
+  ns 
 end
