@@ -7,7 +7,7 @@ def join_nested_strings(src)
   
   while row_index < src.count do 
     ele_index = 0 
-    new_string = ""
+    new_string = []
     
     while ele_index < src[row_index].count do 
       if src[row_index][ele_index].is_a? String 
