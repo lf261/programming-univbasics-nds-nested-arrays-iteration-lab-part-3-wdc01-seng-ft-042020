@@ -9,9 +9,9 @@ def join_nested_strings(src)
     ele_index = 0 
     
     while ele_index < src[row_index].count do 
-      if ele_index[row_index][ele_index].is_a? String 
-      ns << ele_index
-    
+      if src[row_index][ele_index].is_a? String 
+      ns << src[row_index][ele_index]
+      
     end 
      
      
